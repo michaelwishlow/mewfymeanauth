@@ -1,0 +1,32 @@
+{
+  "name": "mewfymeanauth",
+  "version": "1.0.0",
+  "description": "mean stack user auth app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  
+  },
+  "dependencies":{
+      "express":"*",
+      "mongoose":"*",
+      "bcryptjs":"*",
+      "cors":"*",
+      "jsonwebtoken":"*",
+      "body-parser":"*",
+      "passport":"*",
+      "passport-jwt":"*"
+
+
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/michaelwishlow/mewfymeanauth.git"
+  },
+  "author": "michael wishlow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/michaelwishlow/mewfymeanauth/issues"
+  },
+  "homepage": "https://github.com/michaelwishlow/mewfymeanauth#readme"
+}
